@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="Description" content="TodoList">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="#98d9e1"/>
+        <title>TodoList</title>
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="manifest" href="./manifest.webmanifest">
+        <link rel="apple-touch-icon" href="./assets/icon/icon-192x192.png">
+        <link rel="shortcut icon" href="">
+        <script src="./assets/js/script.js" defer></script>
+    </head>
+    <body>
+        <h1 id="header">Todos</h1>
+        <form id="form">
+            <input
+                type="text"
+                id="input"
+                class="input"
+                placeholder="Enter your todo"
+                autocomplete="off"
+            />
+            <ul class="todos" id="todos"></ul>
+        </form>
+        <small
+            >Left click to toggle complete. <br />Right click to delete the
+            todo.</small
+        >
+    </body>
+</html>
