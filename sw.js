@@ -6,8 +6,8 @@ const staticAssets = [
     './sw.js',
     './assets/js/script.js',
     './assets/css/style.css',
-    './assets/icons/icon-512x512.png',
-    './assets/icons/icon-192x192.png',
+    './favicon/icon-512x512.png',
+    './favicon/icon-192x192.png',
     './assets/css/font.css'
 ];
 
